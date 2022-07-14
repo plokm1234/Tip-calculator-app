@@ -1,0 +1,141 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Space Mono', monospace;
+}
+
+.logo {
+    display: flex;
+    margin: 6% auto;
+    /* display: inline; */
+    /* margin-top: 10%; */
+}
+
+.mainContainer {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 50vh;
+    /* margin-top: 15%; */
+    border-radius: 1rem;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1% 1%;
+    height: 100%;
+    
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    border-radius: 5%;
+    margin: 1% 1%;
+}
+
+.billTotal {
+    margin: 10% 5%;
+}
+
+.bill{
+    width: 90%;
+    height: 30px;
+}
+
+.billLabel {
+    display: block;
+    margin-bottom: 2%;
+    font-size: 12px;
+}
+
+.percents {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% 3%;
+}
+
+.btnLabel {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 12px;
+}
+
+.btn {
+    font-size: 20px;
+    margin: 2% 3%;
+    width: 25%;
+    padding: 1% 0%;
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5%;
+}
+
+.nop {
+    margin: 10% 5%;
+}
+
+.nopLabel {
+    display:block;
+    font-size: 12px;
+}
+
+.numberOfPeople {
+    width: 90%;
+    height: 30px;
+}
+
+.rightContainer {
+    background-color: hsl(183, 100%, 15%);
+    height: 90%;
+    width: 45%;
+    margin: 2% 0%;
+}
+
+.tipAmount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10% 10%;
+}
+
+.label1 {
+    color: white;
+    display: block;
+    margin-top: 10%;
+    font-size: 12px;
+}
+
+.label2 {
+    color: #7f9c9f;
+    font-size: 10px;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10% 10%;
+}
+
+.dollar {
+    color: #26c0ab;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.reset {
+    margin: 10% 10%;
+    background-color: #26c0ab;
+    padding: 3% 5%;
+    border-radius: 8px;
+    font-weight: 700;
+}
