@@ -141,3 +141,7 @@ body {
     border-radius: 8px;
     font-weight: 700;
 }
+
+.clicked {
+    background-color: #26c0ab;
+}
