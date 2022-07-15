@@ -49,6 +49,7 @@ body {
 .bill{
     width: 90%;
     height: 30px;
+    text-align: right;
 }
 
 .billLabel {
@@ -91,6 +92,7 @@ body {
 .numberOfPeople {
     width: 90%;
     height: 30px;
+    text-align: right;
 }
 
 .rightContainer {
